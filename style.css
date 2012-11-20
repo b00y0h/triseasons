@@ -967,6 +967,12 @@ color:#ccc;
 .white-triptic .column3, .white-triptic .column3_last {
     background-color: white;
 }
-.white-triptic .column3 p {
-    padding-right: .5em;
+.white-triptic p {
+    padding: .5em;
+    padding-left: 0;
+    margin-bottom: 0;
+    line-height: 1.5em
+}
+.white-triptic img {
+    margin-bottom: 0;
 }
