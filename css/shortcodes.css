@@ -1,0 +1,716 @@
+/*shortcode columns for full width pages*/
+.html{
+background-color:#eee;
+width:95%;
+border:1px solid #ddd;
+padding:2% 2.5%;
+color:#333;
+font-family:"Courier New", Courier, monospace;
+white-space: inherit ;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+margin-top:30px;
+}
+
+.announcement{
+	background-color:#e3e3e3;
+	border:1px solid #ccc;
+	padding:15px;
+	margin-bottom:15px;
+	color:#333;
+}
+
+/*Testimonila with image*/
+
+.testimonial{
+margin-bottom:40px;
+float:left;
+
+}
+
+
+.testimonial_body{
+	margin-left:90px;
+	background-image: url(../images/quote-right.png);
+	background-repeat: no-repeat;
+	background-position: 440px 10px;
+	margin-right:20px;
+	background-color:#fff;
+	border:1px solid #e3e3e3;
+		padding:20px;
+
+	background-image: url(../images/testimonial-body-bg.png);
+	background-repeat: repeat-x;
+
+}
+.testimonial_body p{
+margin:0px;
+
+}
+
+.author_image img{
+float:left;
+margin-right:20px;
+padding:5px;
+background-color:#fff;
+	border:1px solid #e3e3e3;
+
+}
+
+.testimonial strong{
+margin-bottom:10px;
+
+
+
+}
+
+
+.social_icons a{
+float:left;
+width:16px;
+margin-right:10px;
+}
+
+
+/*BUTTONS*/
+
+/* SMALL ROUNDED BUTTONS */
+
+.button-small {	
+	color: #ffffff !important;
+	font: bold 12px/18px Arial, Helvetica, sans-serif;
+	display: inline-block;
+	height: 20px;
+	margin: 0 1em 1em 25px;
+	padding: 5px 20px 5px 5px;
+	position: relative;
+	text-decoration: none !important;	
+}
+
+
+	.button-small span {		
+		height: 30px;
+		left: -15px;
+		position: absolute;
+		top: -10px;
+		width: 27px;
+		display:block;
+	
+	}
+.button-small  span, .button-big  span{
+
+	margin-top:10px;
+
+}
+
+
+.button-small:hover { text-decoration: none; }
+
+
+/* COLORS */
+/*blue/default */
+
+
+.small-blue {
+ background: url(../images/shortcodes/rounded-buttons-small-right.png) no-repeat right 0; 
+ text-shadow: 0 1px 1px #0c5b76; }
+ 
+.small-blue:hover { 
+background: url(../images/shortcodes/rounded-buttons-small-right.png) no-repeat right -30px; }
+
+.small-blue span { 
+background: url(../images/shortcodes/rounded-buttons-small-left.png) no-repeat left 0; 
+ }
+.small-blue:hover span {
+background:url("../images/shortcodes/rounded-buttons-small-left.png") no-repeat scroll left -30px transparent;
+}
+/*orange */
+.small-orange {
+ background: url(../images/shortcodes/rounded-buttons-small-right.png) no-repeat right -60px; 
+ text-shadow: 0 1px 1px #0c5b76; }
+ 
+.small-orange:hover { 
+background: url(../images/shortcodes/rounded-buttons-small-right.png) no-repeat right -90px; }
+
+.small-orange span { 
+background: url(../images/shortcodes/rounded-buttons-small-left.png) no-repeat left -60px; 
+ }
+.small-orange:hover span {
+background:url("../images/shortcodes/rounded-buttons-small-left.png") no-repeat scroll left -90px transparent;
+}
+
+/*green */
+.small-green {
+ background: url(../images/shortcodes/rounded-buttons-small-right.png) no-repeat right -120px; 
+ text-shadow: 0 1px 1px #0c5b76; }
+ 
+.small-green:hover { 
+background: url(../images/shortcodes/rounded-buttons-small-right.png) no-repeat right -150px; }
+
+.small-green span { 
+background: url(../images/shortcodes/rounded-buttons-small-left.png) no-repeat left -120px; 
+ }
+.small-green:hover span {
+background:url("../images/shortcodes/rounded-buttons-small-left.png") no-repeat scroll left -150px transparent;
+}
+
+/*black */
+.small-black {
+ background: url(../images/shortcodes/rounded-buttons-small-right.png) no-repeat right -180px; 
+ text-shadow: 0 1px 1px #0c5b76; }
+ 
+.small-black:hover { 
+background: url(../images/shortcodes/rounded-buttons-small-right.png) no-repeat right -210px; }
+
+.small-black span { 
+background: url(../images/shortcodes/rounded-buttons-small-left.png) no-repeat left -180px; 
+ }
+.small-black:hover span {
+background:url("../images/shortcodes/rounded-buttons-small-left.png") no-repeat scroll left -210px transparent;
+}
+
+/*gray */
+.small-gray {
+ background: url(../images/shortcodes/rounded-buttons-small-right.png) no-repeat right -240px; 
+ text-shadow: 0 1px 1px #0c5b76; }
+ 
+.small-gray:hover { 
+background: url(../images/shortcodes/rounded-buttons-small-right.png) no-repeat right -270px; }
+
+.small-gray span { 
+background: url(../images/shortcodes/rounded-buttons-small-left.png) no-repeat left -240px; 
+ }
+.small-gray:hover span {
+background:url("../images/shortcodes/rounded-buttons-small-left.png") no-repeat scroll left -270px transparent;
+}
+
+/*white */
+.small-white {
+ background: url(../images/shortcodes/rounded-buttons-small-right.png) no-repeat right -300px; 
+ text-shadow: 0 1px 1px #0c5b76; }
+ 
+.small-white:hover { 
+background: url(../images/shortcodes/rounded-buttons-small-right.png) no-repeat right -330px; }
+
+.small-white span { 
+background: url(../images/shortcodes/rounded-buttons-small-left.png) no-repeat left -300px; 
+ }
+.small-white:hover span {
+background:url("../images/shortcodes/rounded-buttons-small-left.png") no-repeat scroll left -330px transparent;
+}
+
+/*red */
+.small-red {
+ background: url(../images/shortcodes/rounded-buttons-small-right.png) no-repeat right -360px; 
+ text-shadow: 0 1px 1px #0c5b76; }
+ 
+.small-red:hover { 
+background: url(../images/shortcodes/rounded-buttons-small-right.png) no-repeat right -390px; }
+
+.small-red span { 
+background: url(../images/shortcodes/rounded-buttons-small-left.png) no-repeat left -360px; 
+ }
+.small-red:hover span {
+background:url("../images/shortcodes/rounded-buttons-small-left.png") no-repeat scroll left -390px transparent;
+}
+/*pink */
+.small-pink {
+ background: url(../images/shortcodes/rounded-buttons-small-right.png) no-repeat right -420px; 
+ text-shadow: 0 1px 1px #0c5b76; }
+ 
+.small-pink:hover { 
+background: url(../images/shortcodes/rounded-buttons-small-right.png) no-repeat right -450px; }
+
+.small-pink span { 
+background: url(../images/shortcodes/rounded-buttons-small-left.png) no-repeat left -420px; 
+ }
+.small-pink:hover span {
+background:url("../images/shortcodes/rounded-buttons-small-left.png") no-repeat scroll left -450px transparent;
+}
+
+
+/* BIG ROUNDED BUTTONS */
+a.button-big {	
+	color: #ffffff !important;
+	font: bold 16px/18px Arial, Helvetica, sans-serif;
+	display: inline-block;
+	height: 45px;
+	margin: 0 1em 1em 16px;
+	padding: 10px 20px 5px 5px;
+	position: relative;
+	text-decoration: none !important;	
+}
+
+.column1 p a.button-big:visited{	
+	color: #ffffff !important;
+	
+}
+
+	.button-big span {		
+		height: 60px;
+		left: -15px;
+		position: absolute;
+		top: -10px;
+		width: 27px;
+	}
+	
+	.button-big em {
+	font-size:12px;
+	font-style: italic;
+	font-weight:normal;
+	}
+	
+.button-big:hover { text-decoration: none; }
+
+
+/* COLORS */
+
+/*blue/default */
+.big-blue {
+ background: url(../images/shortcodes/rounded-buttons-big-right.png) no-repeat right 0; 
+ text-shadow: 0 1px 1px #0c5b76; }
+ 
+.big-blue:hover { 
+background: url(../images/shortcodes/rounded-buttons-big-right.png) no-repeat right -60px; }
+
+.big-blue span { 
+background: url(../images/shortcodes/rounded-buttons-big-left.png) no-repeat left 0; 
+ }
+.big-blue:hover span {
+background:url("../images/shortcodes/rounded-buttons-big-left.png") no-repeat scroll left -60px transparent;
+}
+
+/*orange */
+.big-orange {
+ background: url(../images/shortcodes/rounded-buttons-big-right.png) no-repeat right -120px; 
+ text-shadow: 0 1px 1px #0c5b76; }
+ 
+.big-orange:hover { 
+background: url(../images/shortcodes/rounded-buttons-big-right.png) no-repeat right -180px; }
+
+.big-orange span { 
+background: url(../images/shortcodes/rounded-buttons-big-left.png) no-repeat left -120px; 
+ }
+.big-orange:hover span {
+background:url("../images/shortcodes/rounded-buttons-big-left.png") no-repeat scroll left -180px transparent;
+}
+
+/*green */
+.big-green {
+ background: url(../images/shortcodes/rounded-buttons-big-right.png) no-repeat right -240px; 
+ text-shadow: 0 1px 1px #0c5b76; }
+ 
+.big-green:hover { 
+background: url(../images/shortcodes/rounded-buttons-big-right.png) no-repeat right -300px; }
+
+.big-green span { 
+background: url(../images/shortcodes/rounded-buttons-big-left.png) no-repeat left -240px; 
+ }
+.big-green:hover span {
+background:url("../images/shortcodes/rounded-buttons-big-left.png") no-repeat scroll left -300px transparent;
+}
+
+/*black */
+.big-black {
+ background: url(../images/shortcodes/rounded-buttons-big-right.png) no-repeat right -360px; 
+ text-shadow: 0 1px 1px #0c5b76; }
+ 
+.big-black:hover { 
+background: url(../images/shortcodes/rounded-buttons-big-right.png) no-repeat right -420px; }
+
+.big-black span { 
+background: url(../images/shortcodes/rounded-buttons-big-left.png) no-repeat left -360px; 
+ }
+.big-black:hover span {
+background:url("../images/shortcodes/rounded-buttons-big-left.png") no-repeat scroll left -420px transparent;
+}
+
+/*gray */
+.big-gray {
+ background: url(../images/shortcodes/rounded-buttons-big-right.png) no-repeat right -480px; 
+ text-shadow: 0 1px 1px #0c5b76; }
+ 
+.big-gray:hover { 
+background: url(../images/shortcodes/rounded-buttons-big-right.png) no-repeat right -540px; }
+
+.big-gray span { 
+background: url(../images/shortcodes/rounded-buttons-big-left.png) no-repeat left -480px; 
+ }
+.big-gray:hover span {
+background:url("../images/shortcodes/rounded-buttons-big-left.png") no-repeat scroll left -540px transparent;
+}
+
+/*white */
+.big-white {
+ background: url(../images/shortcodes/rounded-buttons-big-right.png) no-repeat right -600px; 
+ text-shadow: 0 1px 1px #0c5b76; }
+ 
+.big-white:hover { 
+background: url(../images/shortcodes/rounded-buttons-big-right.png) no-repeat right -660px; }
+
+.big-white span { 
+background: url(../images/shortcodes/rounded-buttons-big-left.png) no-repeat left -600px; 
+ }
+.big-white:hover span {
+background:url("../images/shortcodes/rounded-buttons-big-left.png") no-repeat scroll left -660px transparent;
+}
+
+/*red */
+.big-red {
+ background: url(../images/shortcodes/rounded-buttons-big-right.png) no-repeat right -720px; 
+ text-shadow: 0 1px 1px #0c5b76; }
+ 
+.big-red:hover { 
+background: url(../images/shortcodes/rounded-buttons-big-right.png) no-repeat right -780px; }
+
+.big-red span { 
+background: url(../images/shortcodes/rounded-buttons-big-left.png) no-repeat left -720px; 
+ }
+.big-red:hover span {
+background:url("../images/shortcodes/rounded-buttons-big-left.png") no-repeat scroll left -780px transparent;
+}
+/*pink */
+.big-pink {
+ background: url(../images/shortcodes/rounded-buttons-big-right.png) no-repeat right -840px; 
+ text-shadow: 0 1px 1px #0c5b76; }
+ 
+.big-pink:hover { 
+background: url(../images/shortcodes/rounded-buttons-big-right.png) no-repeat right -900px; }
+
+.big-pink span { 
+background: url(../images/shortcodes/rounded-buttons-big-left.png) no-repeat left -840px; 
+ }
+.big-pink:hover span {
+background:url("../images/shortcodes/rounded-buttons-big-left.png") no-repeat scroll left -900px transparent;
+}
+
+
+
+
+.last{
+margin-right:0px !important;
+float:right;
+}
+
+.norightmargin{
+margin-right:0px;
+}
+
+.divider{
+border-bottom:1px solid #ccc;
+margin-bottom:30px;
+display:block;
+height:0px;
+width:100%;
+float:left;
+
+}
+
+.last{
+margin-right:0px !important;
+float:right;
+}
+
+.column1{
+	width:100%;
+	margin-bottom:20px;
+	float:left;
+}
+
+.column2{
+width:48.57%;
+float:left;
+margin-right:2.80%;
+margin-bottom:20px;
+}
+.column2_last{
+width:48.57%;
+float:left;
+margin-bottom:20px;
+
+}
+
+/*one third*/
+.column3{
+width:31.45%;
+float:left;
+margin-right:2.80%;
+margin-bottom:20px;
+
+}
+.column3_last{
+width:31.45%;
+float:right;
+margin-bottom:20px;
+}
+
+/*two third*/
+.column3_2{
+width:65.70%;
+float:left;
+margin-right:2.80%;
+margin-bottom:20px;
+}
+.column3_2_last{
+width:65.70%;
+float:right;
+margin-bottom:20px;
+background-color:#003300;
+}
+.column4{
+width:22.86%;
+float:left;
+margin-right:2.80%;
+margin-bottom:20px;
+}
+.column4_last{
+width:22.86%;
+float:right;
+margin-bottom:20px;
+
+}
+
+.column4_3{
+width:74.30%;
+float:left;
+margin-right:2.80%;
+margin-bottom:20px;
+}
+
+.column5{
+width:16.70%;
+float:left;
+margin-right:2.80%;
+margin-bottom:20px;
+}
+.column5_4{
+width:75.3%;
+float:left;
+margin-right:2.80%;
+margin-bottom:20px;
+}
+.column5_last{
+width:21.90%;
+float:right;
+margin-bottom:20px;
+}
+
+
+/* alert message shortcodes 
+------------------------------------------------------*/
+
+.alert-blue {
+	background:url("../images/info.png") no-repeat scroll 12px 50% #E4F5FD;
+	border:1px solid #AFDBEE;
+	display:block;
+	margin:10px 0 15px;
+	padding:10px 10px 10px 40px;
+	color:#333;
+	-moz-border-radius:5px;
+ 	-webkit-border-radius:5px;
+}
+
+.alert-green {
+	background:url("../images/alert.png") no-repeat scroll 12px 50% #FFFADE;
+	border:1px solid #F8ECA9;
+	display:block;
+	margin:10px 0 15px;
+	padding:10px 10px 10px 40px;
+	color:#333;
+	-moz-border-radius:5px;
+  	-webkit-border-radius:5px;
+}	
+
+.alert-yellow  {
+	background:url("../images/tick.png") no-repeat scroll 12px 50% #EDFFD6;
+	border:1px solid #D2EBB1;
+	display:block;
+	margin:10px 0 15px;
+	padding:10px 10px 10px 40px;
+	color:#333;
+	-moz-border-radius:5px;
+  	-webkit-border-radius:5px;
+}
+
+/* Text hilighted 
+--------------------------------------------------------------------------------------------------*/
+.hilight-yellow{
+background-color:#ffff99;
+}
+.hilight-black{
+background-color:#000;
+color:#ccc;
+}
+.dropcap{ float: left; color: #903; font-size: 75px; line-height: 60px;  padding-right: 8px; padding-left: 3px; font-family: Georgia; }
+
+/* home boxes 
+--------------------------------------------------------------------------------------------------*/
+
+.homebox{
+ padding:0px 36px 0px 0px; 
+ float:left;
+ width:302px;
+ margin-bottom:30px;}
+ 
+.homeboxtext h3 span	 	{ display:block; margin-bottom:0px;}
+.homeboxicon			{ vertical-align:top; float:left; width:48px;}
+.homeboxtext				{ margin-left:65px; margin-top:0px; padding-top:0px; color:}
+
+
+
+.container .grid12 .nopadding{
+padding-right:0px;
+
+}
+
+
+/* services 
+--------------------------------------------------------------------------------------------------*/
+
+.servicesbox			{ margin:0; padding:20px 20px 0px 0px; overflow:hidden; height:100%; clear:both;}
+.servicestext h3 span	 	{ display:block; margin-bottom:0px;}
+.servicesicon			{ vertical-align:top; float:left; width:148px;}
+.servicestext			{ margin-left:170px; margin-top:0px; padding-top:0px;}
+
+
+
+
+/* ================== sidebar contact info widget style ==================== */
+
+.sidebar .sidebar-contactinfo{
+margin-bottom:20px;
+float:left;
+width:100%;
+
+
+}
+
+
+.sidebar .sidebar-contactinfo p {
+padding-left:30px;
+width:100%;
+float:left;
+
+}
+.sidebar .sidebar-contactinfo p.address {
+margin:0px;
+
+}
+
+
+.sidebar .sidebar-contactinfo p span {
+color:#333;
+margin:0px;
+line-height:20px;
+
+}
+
+
+.phone{
+	background-image: url(../images/phone.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width:16px;
+	height:16px;
+
+}
+
+.fax{
+	background-image: url(../images/fax.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width:16px;
+	height:16px;
+
+}
+.email{
+	background-image: url(../images/email.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width:16px;
+	height:16px;
+
+}
+.address{
+	background-image: url(../images/address.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	min-height:16px;
+	display:block;
+}
+.address p {
+margin:0px;
+padding:0px;
+}
+
+
+/* ================== toggle and tabgs style ==================== */
+
+h2.trigger {
+	padding: 0 0 0 50px;
+	margin: 0 0 0px 0;
+	background: url(../images/h2_trigger_a.png) no-repeat;
+	height: 46px;
+	line-height: 46px;	
+	font-size: 2em;
+	font-weight: normal;
+	float:left;	
+	width:92%;
+	text-decoration: none;
+	display: block;
+	cursor:pointer;
+	border-top:1px solid #555;
+	border-bottom:1px solid #777;
+	background-color:#666;
+	color:#fff;
+}
+
+h2.trigger a:hover {
+	color: #ccc;
+}
+h2.active {background-position: left bottom;}
+.toggle_container {
+	margin: 0 0 0px;
+	padding: 0;	
+	overflow: hidden;
+	width: 95%;
+	clear: both;
+
+}
+.toggle_container .block {
+	padding: 20px;
+	
+	}
+.toggle_container .block p {
+	padding: 5px 0;
+	margin: 5px 0;
+	
+}
+.toggle_container h3 {
+	font: 2.5em normal Georgia, "Times New Roman", Times, serif;
+	margin: 0 0 10px;
+	padding: 0 0 5px 0;
+	border-bottom: 1px dashed #ccc;
+}
+.toggle_container img {
+	float: left;
+	margin: 10px 15px 15px 0;
+	padding: 5px;
+	background: #ddd;
+	border: 1px solid #ccc;
+}
+
+
+
+ul.tabs 	{ margin:0 !important;padding:0;height:30px;clear:left; border-bottom:1px solid #ddd;}
+ul.tabs li 	{ float:left;padding:0; margin:0; list-style-type:none; background:none;}
+ul.tabs a 	{ float:left; display:block; position:relative; top:1px; padding:5px 30px; margin-right:2px; border-bottom:0px; height:18px; border:1px solid #ddd; font-size:10px; letter-spacing:3px; text-transform:uppercase; text-decoration:none; border-radius:4px;
+	-moz-border-radius-topleft:4px;
+	-moz-border-radius-topright:4px;
+	-webkit-border-radius-topleft:4px;
+	-webkit-border-radius-topright:4px;
+	}
+
+ul.tabs a.current	{ cursor:default; background:#fff; border-bottom:1px solid #fff; }
+.tab_content		{ display:none;padding:20px 30px;overflow:hidden; border:1px solid #ddd; background-color:#fff; border-top:0; }
+.panes 				{ clear:both; }

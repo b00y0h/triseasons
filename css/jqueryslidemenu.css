@@ -1,0 +1,163 @@
+
+#myslidemenu{
+	height:44px;
+	float:left;
+	line-height:44px;
+-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #3356ae;
+    border: solid 1px #e6f6ce;
+}
+
+.jqueryslidemenu{
+	margin:0 auto;
+	float:right;
+	position:relative;
+	margin-top:10px;
+	padding-right:8px;
+	height:44px;
+	z-index:111;
+}
+
+.jqueryslidemenu a:link, .jqueryslidemenu a:visited{
+	text-decoration:none;
+	color:#ccc;
+	text-transform:uppercase;
+
+
+
+	}
+
+
+.jqueryslidemenu ul ul {
+	padding-top:7px;
+}
+.jqueryslidemenu ul ul li{
+border-top:none;
+
+}
+
+
+
+.jqueryslidemenu ul li a {
+	font-size:11px;
+	float:left;
+	text-shadow: 0 1px 1px #111;
+	outline: none;
+	letter-spacing:.025em;
+	display: block;
+
+}
+
+.jqueryslidemenu ul li ul li a:link, .jqueryslidemenu ul li ul li a:visited {
+	color:#111;
+	text-shadow: none;
+	font-weight: normal;
+	}
+
+.jqueryslidemenu {
+
+}
+
+.jqueryslidemenu ul ul ul {
+	padding-top:0px;
+
+
+}
+.jqueryslidemenu .firstdropmenu{}
+
+.menu li a:link, .menu li a:visited, .jqueryslidemenu  ul li.current_page_item  ul li a, .jqueryslidemenu ul li.current-cat ul li a {
+	padding:0px 15px;
+	display:block;
+	text-shadow: none;
+
+}
+
+.jqueryslidemenu ul li ul li a:hover {
+	display: block;
+	background-color:#e3e3e3;
+	width:145px;
+
+
+}
+
+
+.jqueryslidemenu ul li ul li{
+
+	border-top:0px solid #242424;
+	line-height:35px;
+
+	}
+
+.jqueryslidemenu ul li ul li{
+	border-bottom:1px solid #bdbdbd;
+	border-top:1px solid #fafafa;
+	line-height:35px;
+
+	}
+
+.jqueryslidemenu .no-border {
+border-top:none;
+
+
+
+}
+
+/*Top level list items*/
+
+.jqueryslidemenu ul li{
+	position: relative;
+	display: inline;
+	float: left;
+	margin:0px;
+	padding:0px;
+
+}
+
+.jqueryslidemenu ul li ul a{
+padding-top:7px;
+}
+.jqueryslidemenu ul li ul {
+	z-index:333;
+
+
+}
+
+.jqueryslidemenu ul li ul li ul {
+	z-index:333;
+
+}
+.jqueryslidemenu ul li ul li {
+	padding-top:1px;
+	width:175px;
+	display:block;
+
+	}
+/*1st sub level menu*/
+.jqueryslidemenu ul li ul{
+	position: absolute;
+	left: 0;
+	display: block;
+	visibility: hidden;
+	z-index:111;}
+
+/*current menu left image*/
+.jqueryslidemenu  ul li.current_page_item a, .jqueryslidemenu  ul li.current-menu-item a {
+	color:#eee;
+
+}
+.jqueryslidemenu  ul li.current_page_item ul li a {
+
+	font-weight: normal;
+}
+/* ######### CSS classes applied to down and right arrow images  ######### */
+.downarrowclass{
+	position: absolute;
+	top: 22px;
+	right: 7px;
+	visibility:hidden;}
+.rightarrowclass{
+	position: absolute;
+	top: 15px;
+	right: 15px;}

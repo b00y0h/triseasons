@@ -1,0 +1,90 @@
+.admintable {
+font-size:12px;
+}
+
+.admintable label {
+width:350px;
+padding:3px;
+margin-left:10px;
+float:left;
+font-size:11px;
+font-weight:bold;
+}
+
+.admintable .desc {
+padding:3px;
+margin-left:370px;
+font-size:10px;
+
+}
+ .hr {
+ border-bottom:1px solid #ccc;
+ margin-bottom:10px;
+padding-bottom:10px;
+}
+
+#customskin h3, .ui-tabs-panel h3 {
+ font-size:17px; 
+ background-color:#eee;
+ border:1px solid #ccc;
+ border-bottom:none;
+ width:98%; 
+ padding:10px; 
+-webkit-border-radius-topleft: 12px;
+-moz-border-radius-topleft:12px;
+-webkit-border-radius-topright: 12px;
+-moz-border-radius-topright:12px;
+border-radius: 8px;
+ background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ccc), to(#fff));
+	background: -moz-linear-gradient(#ccc, #fff);
+	background: linear-gradient(#ccc, #fff);
+	-pie-background: linear-gradient(#ccc, #fff);
+	behavior: url(http://127.0.0.1/anamika/wp-content/themes/cleansure/lib/PIE/PIE.php);
+	 
+ }
+
+/*-------------------------------------------------------------------------------------------*/
+/* WEBTREATS ADMIN OPTIONS STYLES */
+/*-------------------------------------------------------------------------------------------*/
+
+
+/* ------- Option Page Styles ------- */
+
+#webtreats_container  { width: 838px; position:relative }
+
+#webtreats_container #main  { border-color:#EBEBEB #EBEBEB #EBEBEB #EBEBEB;
+border-style:solid;
+border-width:1px;
+margin:18px 1% 0 4px;
+padding:2px; }
+
+#webtreats_container #admin_content  { float: left; width: 766px; margin-left: -1px; padding: 0 14px; font-family: "Lucida Grande", Sans-serif; }
+
+.webtreats-page-title { margin:0.83em 0pt 1.53em; }
+
+#webtreats_container .group { display:none;padding-bottom:20px}
+#webtreats_container .group h2 { border-bottom:1px solid #e7e7e7}
+
+#webtreats_container .slider_drag{ background: transparent url(../images/slider_drag.png) no-repeat scroll 42px 4px; }
+#webtreats_container .changenumber{ font-size:20px; }
+#webtreats_container .form-table td { padding:8px 0; }
+#webtreats_container tr.myDragClass td { background-color:#E5E5E5; }
+.webtreats-options th { width:30%; }
+
+/* ------- Post and Page Meta Boxes Styles ------- */
+
+#webtreats_generalpost_meta p a.switch, #webtreats_portfolio_page_meta p a.switch #webtreats_generalpage_meta p a.switch {
+color:#666666;
+font-size:11px;
+margin-left:10px;
+text-decoration:none;
+} 
+#webtreats_generalpost_meta p.add_margin, #webtreats_portfolio_page_meta p.add_margin, #webtreats_generalpage_meta p.add_margin {
+border-bottom:1px dotted #CCCCCC;
+padding-bottom:12px;
+}
+#webtreats_generalpost_meta input.full, #webtreats_portfolio_page_meta input.full, #webtreats_generalpage_meta input.full {
+margin:0 0 4px 0;
+width:99%;
+}
+#portfolio_teaser_text, #teaser_text_custom { width:98%; }

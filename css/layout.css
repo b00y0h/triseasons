@@ -1,0 +1,104 @@
+.wrap{
+width:100%;
+float:left;
+
+}
+.container {
+	width: 978px;
+	margin: 0 auto;
+	margin-bottom:30px;
+}
+
+.mid-column{
+	width:100%;
+	display:table;
+	padding-top:30px;
+	padding-bottom:30px;
+
+}
+
+
+#content-column{
+background-color:#fff;
+display:table;
+padding-left:50px;
+float:left;
+}
+
+.grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9, .grid10, .grid11 {
+	float: left;
+	margin-left: 30px;
+}
+.grid1 {
+	width: 54px;
+}
+.grid2 {
+	width: 138px;
+}
+.grid3 {
+	width: 222px;
+}
+.grid4 {
+	width: 306px;
+}
+.grid5 {
+	width: 390px;
+}
+.grid6 {
+	width: 474px;
+}
+.grid7 {
+	width: 558px;
+}
+.grid8 {
+	width: 642px;
+}
+.grid9 {
+	width: 726px;
+}
+.grid10 {
+	width: 810px;
+}
+.grid11 {
+	width: 894px;
+}
+.first {
+	margin-left: 0;
+	clear: left;
+}
+
+/* clearfix */
+.clearfix:after, .clear {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+* html .clearfix, .clear {
+	zoom: 1;
+}
+.space-divider{
+	visibility: hidden;
+	display: block;
+	clear: both;
+	height:30px;
+
+}
+	
+ /* IE6 */
+*:first-child+html .clearfix {
+	zoom: 1;
+} /* IE7 */
+
+/* NOTE: the following styles are for demo purpose (not required) */
+.container {
+	
+}
+.grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9, .grid10, .grid11 {
+	margin-bottom: 15px;
+
+
+
+}

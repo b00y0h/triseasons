@@ -1,0 +1,37 @@
+html {
+	background-color:#6b6b6b !important;
+}
+/* hyper links
+--------------------------------------*/
+a:link, a:visited { color: #3399ff; }
+a:hover, a:active { color: #333; }
+
+/* top menu links
+--------------------------------------*/
+.jqueryslidemenu a:link, .jqueryslidemenu a:visited{
+	
+	color:#fff!important;
+
+}
+.jqueryslidemenu ul li ul li a:link, .jqueryslidemenu ul li ul li a:visited {
+		color:#333!important;
+}
+.jqueryslidemenu ul li ul li a:hover {
+		color:#111!important;
+}
+
+/* footer and footer links
+--------------------------------------*/
+#footer-links ul li{
+border-left:1px solid #bebebe!important;
+}
+
+#footer-links ul li a, .footer{
+float:left;
+color:#bebebe!important;
+}
+
+#footer-links ul li a:hover{
+color:#333!important;
+
+}
