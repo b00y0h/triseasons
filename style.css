@@ -229,7 +229,7 @@ line-height:70px;
 }
 
 .title{
-	background-image: url(images/inner-title-bg1.png);
+	background-image: url(images/inner-title-bg.png);
 	background-repeat: no-repeat;
 	background-position: center 10px;
 		width: 978px;
@@ -975,4 +975,15 @@ color:#ccc;
 }
 .white-triptic img {
     margin-bottom: 0;
+}
+
+.mijireh_order_form #mj-order-button .btn, .woocommerce a.button.alt, .woocommerce-page a.button.alt, .woocommerce button.button.alt, .woocommerce-page button.button.alt, .woocommerce input.button.alt, .woocommerce-page input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce-page #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page #content input.button.alt {
+background: #ad74a2;
+background: -webkit-gradient(linear,left top,left bottom,from(#ad74a2),to(#96588a));
+background: -webkit-linear-gradient(#ad74a2,#96588a);
+background: -moz-linear-gradient(center top,#ad74a2 0,#96588a 100%);
+background: -moz-gradient(center top,#ad74a2 0,#96588a 100%);
+border-color: #76456c;
+color: #fff;
+text-shadow: 0 -1px 0 rgba(0,0,0,0.6);
 }
