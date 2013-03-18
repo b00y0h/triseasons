@@ -30,7 +30,7 @@ require_once(KAYA_ADMIN . '/kaya_options.php');
 
 add_filter('widget_text','do_shortcode');
 
-// This allow ristrict to generate p tag while creting page/post 
+// This allow ristrict to generate p tag while creting page/post
 remove_filter( 'the_content', 'wpautop' );
 
 // It removes WordPress version number in the header
@@ -38,7 +38,7 @@ remove_filter( 'the_content', 'wpautop' );
 
 // This theme allows users to set a custom background
 	add_custom_background();
-	
+
 // This theme menu supports
 	add_theme_support( 'nav-menus' );
 
@@ -50,7 +50,7 @@ remove_filter( 'the_content', 'wpautop' );
 
 // This theme uses post thumbnails
 	add_theme_support( 'post-thumbnails' );
-	
+
 
 
 add_action( 'init', 'my_register_image_sizes' );
@@ -78,39 +78,39 @@ function get_custom_field_value($key, $print = false) {
 }
 	// Add default posts and comments RSS feed links to head
 	add_theme_support( 'automatic-feed-links' );
-		
+
 // Admin interface starts ======================================================================================
 
 function mytheme_add_admin() {
- 
+
 global $themename, $shortname, $options;
 
- 
+
 if ( $_GET['page'] == basename(__FILE__) ) {
 
 	if ( 'save' == $_REQUEST['action'] ) {
   $hidden_anchor = $_REQUEST['hidden_anchor'];
 		foreach ($options as $value) {
 		update_option( $value['id'], $_REQUEST[ $value['id'] ] ); }
- 
+
 foreach ($options as $value) {
 	if( isset( $_REQUEST[ $value['id'] ] ) ) { update_option( $value['id'], $_REQUEST[ $value['id'] ]  ); } else { delete_option( $value['id'] ); } }
- 
+
 	header("Location: admin.php?page=functions.php&saved=true$hidden_anchor");
 die;
- 
-} 
+
+}
 else if( 'reset' == $_REQUEST['action'] ) {
- 
+
 	foreach ($options as $value) {
 		delete_option( $value['id'] ); }
- 
+
 	header("Location: admin.php?page=functions.php&reset=true");
 die;
- 
+
 }
 }
- 
+
 add_menu_page($themename, $themename, 'administrator', basename(__FILE__), 'mytheme_admin');
 }
 
@@ -130,7 +130,7 @@ wp_enqueue_script( 'jquery-ui-tabs' );
 function mytheme_admin() {
  global $themename, $shortname, $options;
 $i=0;
- 
+
 if ( $_REQUEST['saved'] ) echo '<div id="message" class="updated fade"><p><strong>'.$themename.' settings saved.</strong></p></div>';
 if ( $_REQUEST['reset'] ) echo '<div id="message" class="updated fade"><p><strong>'.$themename.' settings reset.</strong></p></div>';
 ?>
@@ -156,3 +156,25 @@ if ($_GET['activated']){
     wp_redirect(admin_url("themes.php?page=functions.php"));
 }
 ?>
+
+<?php
+add_action('woocommerce_before_main_content', 'my_theme_wrapper_start', 10);
+add_action('woocommerce_after_main_content', 'my_theme_wrapper_end', 10);
+remove_action( 'woocommerce_before_single_product_summary', 'woocommerce_show_product_images', 20 );
+    remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_upsell_display', 15 );
+    remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
+remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0);
+
+
+function my_theme_wrapper_start() { ?>
+<div class="mid-wrap">
+    <div class="container">
+<div class="grid12 first" id="full-width">
+<?php }
+
+function my_theme_wrapper_end() { ?>
+</div>
+</div>
+</div>
+
+<?php }
