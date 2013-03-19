@@ -178,3 +178,56 @@ function my_theme_wrapper_end() { ?>
 </div>
 
 <?php }
+
+
+/**
+ * Add checkbox field to the checkout
+ **/
+add_action('woocommerce_after_order_notes', 'my_custom_checkout_field');
+
+function my_custom_checkout_field( $checkout ) {
+
+    echo '<div id="terms-agreement-checkbox"><h4>'.__('Terms and Agreement: ').'</h4>';
+
+    woocommerce_form_field( 'terms_checkbox', array(
+        'type'          => 'checkbox',
+        'class'         => array('input-checkbox'),
+        'label'         => __('I have read and agree to the terms.'),
+        'required'  => true,
+        ), $checkout->get_value( 'terms_checkbox' ));
+
+    echo '</div>';
+}
+
+/**
+ * Process the checkout
+ **/
+add_action('woocommerce_checkout_process', 'my_custom_checkout_field_process');
+
+function my_custom_checkout_field_process() {
+    global $woocommerce;
+
+    // Check if set, if its not set add an error.
+    if (!$_POST['terms_checkbox'])
+         $woocommerce->add_error( __('Please agree to the terms.') );
+}
+
+/**
+ * Update the order meta with field value
+ **/
+add_action('woocommerce_checkout_update_order_meta', 'my_custom_checkout_field_update_order_meta');
+
+function my_custom_checkout_field_update_order_meta( $order_id ) {
+    if ($_POST['terms_checkbox']) update_post_meta( $order_id, 'My Checkbox', esc_attr($_POST['terms_checkbox']));
+}
+
+
+// Hook in to remove order comments
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
+
+// Our hooked in function - $fields is passed via the filter!
+function custom_override_checkout_fields( $fields ) {
+     unset($fields['order']['order_comments']);
+
+     return $fields;
+}
